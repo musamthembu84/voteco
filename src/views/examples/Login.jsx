@@ -18,7 +18,7 @@ import {
 class Login extends React.Component {
 
   routeChange=()=> {
-    this.props.history.push("/admin/index");
+    this.props.history.push("/auth/Uport");
   }
   render() {
     return (
